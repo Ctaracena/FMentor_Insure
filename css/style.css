@@ -310,7 +310,7 @@ header .desktop-nav .menu {
 }
 
 .hero .hero-container .details .bg-desktop-bottom {
-  width: 30%;
+  width: 33%;
   position: absolute;
   top: 350px;
   left: -165px;
@@ -458,9 +458,126 @@ header .desktop-nav .menu {
   }
 }
 
+.different {
+  background-color: white;
+}
+
+.different .top-row {
+  width: 77%;
+  height: 300px;
+  margin: auto;
+}
+
+.different .top-row .bottom-line {
+  width: 150px;
+  height: 300px;
+  border-bottom: 1px solid #837d87;
+}
+
+.different .different-container {
+  width: 77%;
+  margin: auto;
+}
+
+.different .different-container h2 {
+  font-size: 70px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  color: #2b272f;
+  margin-top: 50px;
+  margin-bottom: 78px;
+}
+
+.different .different-container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.different .different-container .cards .card {
+  width: 32%;
+}
+
+.different .different-container .cards .card h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.different .different-container .cards .card p {
+  color: #837d87;
+  line-height: 1.6;
+}
+
+.different .banner {
+  position: relative;
+  width: 77%;
+  height: 250px;
+  margin: 150px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #2d2640;
+}
+
+.different .banner h2 {
+  width: 470px;
+  font-family: "DM Serif Display", serif;
+  font-size: 54px;
+  font-weight: 400;
+  color: #fafafa;
+  margin-left: 80px;
+  line-height: 1.1;
+}
+
+.different .banner .work {
+  position: relative;
+  z-index: 12;
+  width: 160px;
+  height: 40px;
+  color: #fafafa;
+  background-color: transparent;
+  border: 2px solid #fafafa;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  cursor: pointer;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  outline: none;
+}
+
+.different .banner .work:hover {
+  background-color: #fafafa;
+  color: #2b272f;
+  font-weight: 700;
+}
+
+.different .banner img {
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
 body {
   font-family: "Karla", sans-serif;
   margin: 0 auto;
   max-width: 1440px;
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
