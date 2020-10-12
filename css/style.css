@@ -1,7 +1,7 @@
 header {
   background-color: white;
   position: relative;
-  z-index: 9;
+  z-index: 98;
 }
 
 header .desktop-nav {
@@ -102,7 +102,7 @@ header .desktop-nav .menu {
 
 @media screen and (max-width: 600px) {
   header {
-    position: relative;
+    position: fixed;
     width: 100%;
     height: auto;
     -webkit-box-orient: vertical;
@@ -122,8 +122,8 @@ header .desktop-nav .menu {
     width: 100%;
     height: 95%;
     display: none;
-    position: relative;
-    z-index: 9;
+    position: fixed;
+    z-index: 99;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -393,7 +393,7 @@ header .desktop-nav .menu {
   .hero .hero-container .details .bg-desktop-bottom {
     width: 35%;
     position: absolute;
-    top: 270px;
+    top: 180px;
     left: -120px;
     z-index: 3;
   }
@@ -421,10 +421,10 @@ header .desktop-nav .menu {
     width: 100%;
   }
   .hero .hero-container .bg-mobile-bottom {
-    width: 25%;
+    width: 28%;
     display: block;
     position: absolute;
-    top: 858px;
+    top: 765px;
     right: 0px;
   }
   .hero .hero-container .details {
@@ -536,13 +536,13 @@ header .desktop-nav .menu {
   font-size: 54px;
   font-weight: 400;
   color: #fafafa;
-  margin-left: 80px;
+  margin-left: 75px;
   line-height: 1.1;
 }
 
 .different .banner .work {
   position: relative;
-  z-index: 12;
+  z-index: 15;
   width: 160px;
   height: 40px;
   color: #fafafa;
@@ -556,7 +556,7 @@ header .desktop-nav .menu {
   cursor: pointer;
   margin-top: 55px;
   margin-bottom: 50px;
-  margin-right: 80px;
+  margin-right: 75px;
   outline: none;
 }
 
@@ -566,12 +566,147 @@ header .desktop-nav .menu {
   font-weight: 700;
 }
 
-.different .banner img {
+.different .banner .desktop-bg {
   position: absolute;
   z-index: 11;
   top: 0;
   right: 0;
   bottom: 0;
+}
+
+.different .banner .mobile-bg {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .different .top-row {
+    width: 90%;
+    height: 200px;
+  }
+  .different .top-row .bottom-line {
+    height: 200px;
+  }
+  .different .different-container {
+    width: 90%;
+  }
+  .different .banner {
+    width: 90%;
+  }
+  .different .banner h2 {
+    margin-left: 60px;
+  }
+  .different .banner .work {
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .different .top-row {
+    width: 77%;
+    height: 200px;
+  }
+  .different .top-row .bottom-line {
+    width: 250px;
+    margin: auto;
+  }
+  .different .different-container {
+    width: 77%;
+    margin: auto;
+  }
+  .different .different-container h2 {
+    text-align: center;
+  }
+  .different .different-container .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .different .different-container .cards .card {
+    width: 77%;
+    text-align: center;
+    margin: 25px 0;
+  }
+  .different .banner {
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin: 150px auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .different .banner h2 {
+    width: 80%;
+    font-size: 50px;
+    margin: 60px auto 40px;
+    text-align: center;
+  }
+  .different .banner .work {
+    margin: 20px 0 50px;
+  }
+  .different .banner .desktop-bg {
+    display: none;
+  }
+  .different .banner .mobile-bg {
+    display: block;
+    position: absolute;
+    z-index: 12;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .different .top-row {
+    height: 150px;
+  }
+  .different .top-row .bottom-line {
+    height: 150px;
+    width: 150px;
+  }
+  .different .different-container {
+    width: 92%;
+  }
+  .different .different-container h2 {
+    font-size: 46px;
+  }
+  .different .different-container .cards .card {
+    width: 92%;
+  }
+  .different .banner {
+    width: 90%;
+    height: auto;
+    margin: 100px auto;
+  }
+  .different .banner h2 {
+    width: 300px;
+    font-size: 38px;
+  }
+  .different .banner .work {
+    margin: 0px 0 70px;
+  }
+  .different .banner .desktop-bg {
+    display: none;
+  }
+  .different .banner .mobile-bg {
+    position: absolute;
+    z-index: 12;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 body {
