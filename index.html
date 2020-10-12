@@ -13,17 +13,23 @@
 <body>
   <!-- Desktop Navigation Menu -->
   <header>
+    <div class="lang-icon">
+      <div class="lang-icon-container">
+        <img src="images/icons8-spain-48.png" width="36px" alt="spanish version" class="flag">
+      </div>
+    </div>
     <div class="desktop-nav">
       <img src="images/logo.svg" alt="insure logo">
       <nav>
         <ul>
-          <li><a href="#">How we work</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Account</a></li>
+          <li><a id="work" href="#">How we work</a></li>
+          <li><a id="blog" href="#">Blog</a></li>
+          <li><a id="account" href="#">Account</a></li>
         </ul>
-        <button class="view-plans">view plans</button>
+        <button id="header-btn" class="view-plans">view plans</button>
       </nav>
       <img src="images/icon-hamburger.svg" alt="menu" class="menu" >
+      
     </div>
     
 
@@ -32,11 +38,11 @@
   <div class="mobile-nav">
     <nav>
       <ul>
-        <li><a href="#">How we work</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Account</a></li>
+        <li><a id="mobile-work" href="#">How we work</a></li>
+        <li><a id="mobile-blog" href="#">Blog</a></li>
+        <li><a id="mobile-account" href="#">Account</a></li>
       </ul>
-      <button class="view-plans">view plans</button>
+      <button id="mobile-header-btn" class="view-plans">view plans</button>
     </nav>
     <div class="bg-pattern"></div>
   </div>
@@ -51,11 +57,11 @@
   <div class="hero-container">
     <div class="details">
       <img src="images/bg-pattern-intro-left-mobile.svg" alt="bg-mobile-top" class="bg-mobile-top">
-      <h1>Humanizing your insurance.</h1>
-      <p>Get your life insurance coverage easier and faster. We blend our expertise 
+      <h1 id="hero-title">Humanizing your insurance.</h1>
+      <p id="hero-p">Get your life insurance coverage easier and faster. We blend our expertise 
         and technology to help you find the plan that’s right for you. Ensure you 
         and your loved ones are protected.</p>
-        <button>View plans</button>
+        <button id="hero-btn">View plans</button>
         <img class="bg-desktop-bottom" src="images/bg-pattern-intro-left-desktop.svg" alt="bg-pattern-intro-left-desktop">
         
     </div>
@@ -64,36 +70,37 @@
   </div>
 </section>
 
+<!-- Different Section -->
 <section class="different">
   <div class="top-row">
     <div class="bottom-line"></div>
   </div>
   <div class="different-container">
-    <h2>We’re different</h2>
+    <h2 id="dif-title">We’re different</h2>
   <div class="cards">
     <div class="card">
       <img src="images/icon-snappy-process.svg" alt="lightning icon">
-      <h3>Snappy Process</h3>
-      <p>Our application process can be completed in minutes, not hours. Don’t get 
+      <h3 id="snappy">Snappy Process</h3>
+      <p id="snappy-text">Our application process can be completed in minutes, not hours. Don’t get 
       stuck filling in tedious forms.</p>
     </div>
     <div class="card">
       <img src="images/icon-affordable-prices.svg" alt="money icon">
-      <h3>Affordable Prices</h3>
-      <p>  We don’t want you worrying about high monthly costs. Our prices may be low, 
+      <h3 id="affordable">Affordable Prices</h3>
+      <p id="affordable-text">  We don’t want you worrying about high monthly costs. Our prices may be low, 
         but we still offer the best coverage possible.</p>
     </div>
     <div class="card">
       <img src="images/icon-people-first.svg" alt="people icon">
-      <h3>People First</h3>
-      <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+      <h3 id="people">People First</h3>
+      <p id="people-text">Our plans aren’t full of conditions and clauses to prevent payouts. We make 
       sure you’re covered when you need it.</p>
     </div>
   </div>
   </div>
   <div class="banner">
-    <h2>Find out more about how we work</h2>
-    <button class="work">How we work</button>
+    <h2 id="banner-title">Find out more about how we work</h2>
+    <button id="banner-btn" class="work">How we work</button>
     <img src="images/bg-pattern-how-we-work-desktop.svg" alt="bg image" class="desktop-bg">
     <img src="images/bg-pattern-how-we-work-mobile.svg" alt="bg image" class="mobile-bg">
   </div>
@@ -113,37 +120,37 @@
   </div>
   <div class="lists-container">
     <div class="list">
-      <p class="title">Our company</p>
+      <p id="listA" class="title">Our company</p>
       <ul>
-        <li><a href="#">How we work</a></li>
-        <li><a href="#">Why Insure?</a></li>
-        <li><a href="#">View plans</a></li>
-        <li><a href="#">Reviews</a></li>
+        <li><a id="listA1" href="#">How we work</a></li>
+        <li><a id="listA2" href="#">Why Insure?</a></li>
+        <li><a id="listA3" href="#">View plans</a></li>
+        <li><a id="listA4" href="#">Reviews</a></li>
       </ul>
     </div>
     <div class="list">
-      <p class="title">Help me</p>
+      <p id="listB" class="title">Help me</p>
       <ul>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Terms of use</a></li>
-        <li><a href="#">Privacy policy</a></li>
-        <li><a href="#">Cookies</a></li>
+        <li><a id="listB1" href="#">FAQ</a></li>
+        <li><a id="listB2" href="#">Terms of use</a></li>
+        <li><a id="listB3" href="#">Privacy policy</a></li>
+        <li><a id="listB4" href="#">Cookies</a></li>
       </ul>
     </div>
     <div class="list">
-      <p class="title">Contact</p>
+      <p id="listC" class="title">Contact</p>
       <ul>
-        <li><a href="#">Sales</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Live chat</a></li>
+        <li><a id="listC1" href="#">Sales</a></li>
+        <li><a id="listC2" href="#">Support</a></li>
+        <li><a id="listC3" href="#">Live chat</a></li>
       </ul>
     </div>
     <div class="list">
-      <p class="title">Others</p>
+      <p id="listD" class="title">Others</p>
       <ul>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Press</a></li>
-        <li><a href="#">Licenses</a></li>
+        <li><a id="listD1" href="#">Careers</a></li>
+        <li><a id="listD2" href="#">Press</a></li>
+        <li><a id="listD3" href="#">Licenses</a></li>
       </ul>
     </div>
   </div>

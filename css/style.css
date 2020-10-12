@@ -4,6 +4,30 @@ header {
   z-index: 98;
 }
 
+header .lang-icon {
+  width: 100%;
+  background-color: #2b272f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .lang-icon .lang-icon-container {
+  text-align: center;
+  width: 50px;
+  height: 36px;
+  border-radius: 5px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+header .lang-icon .icon-container:hover {
+  background-color: black;
+}
+
 header .desktop-nav {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
