@@ -7,10 +7,10 @@ menuBtn.addEventListener('click', () => {
   if (mobileNav.style.display === 'none') {
     mobileNav.style.display = 'flex'
     mobileNav.style.animationName = 'slide-in-right'
-    menuBtn.src = '../images/close.svg'
+    menuBtn.src = 'images/close.svg'
   } else {
     mobileNav.style.display = 'none'
-    menuBtn.src = '../images/icon-hamburger.svg'
+    menuBtn.src = 'images/icon-hamburger.svg'
   }
 })
 
@@ -162,11 +162,11 @@ let lang = 'eng'
 
 langBtn.addEventListener('click', () => {
   if (lang === 'eng') {
-    flag.src = '../images/icons8-usa-48.png'
+    flag.src = 'images/icons8-usa-48.png'
     spanish()
     lang = 'spa'
   } else if (lang === 'spa') {
-    flag.src = '../images/icons8-spain-48.png'
+    flag.src = 'images/icons8-spain-48.png'
     english()
     lang = 'eng'
   }
