@@ -134,6 +134,9 @@ header .desktop-nav .menu {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  header .lang-icon .lang-icon-container {
+    margin-right: 10px;
+  }
   header .desktop-nav nav {
     display: none;
   }
@@ -436,7 +439,7 @@ header .desktop-nav .menu {
     display: none;
   }
   .hero .top-row {
-    height: 0;
+    height: 100px;
   }
   .hero .top-row .bottom-line {
     display: none;
